@@ -8,8 +8,7 @@
 | Field | Detail |
 |---|---|
 | **Company Chosen** | Subspace.money |
-| **Assignment Type** | Product Teardown — 5 Sharp Feedbacks |
-| **Deadline** | Sunday, 31 May 2026, 11:59 PM IST |
+| **Assignment Type** | Product Teardown 5 Sharp Feedbacks |
 | **Pillars Covered** | Competitor Analysis · GTM & ICPs · Features/Services · Potential Collaborations · UX |
 | **Framework Used** | Observed → Problem → Ship Instead + Impact/Effort Prioritisation |
 
@@ -36,7 +35,7 @@ subspace-product-teardown/
 ├── README.md                          ← You are here
 │
 ├── report/
-│   └── Subspace_Product_Teardown.docx ← Full formatted report (Word doc)
+│   └── Subspace-Product Teardown.pdf ← Full formatted report (Word doc)
 │
 ├── feedbacks/
 │   ├── 01_competitor_analysis.md      ← OTT crackdown risk
@@ -61,9 +60,9 @@ subspace-product-teardown/
 |---|---|---|---|
 | 1 | Competitor Analysis | OTT crackdown creates an unhedged business risk | P2 |
 | 2 | GTM & ICPs | Group splitting has a cold-start problem Splitwise already solved | P3 |
-| 3 | Features / Services | Auto-detection is a black box — no transparency or audit trail | **P1** |
+| 3 | Features / Services | Auto-detection is a black box no transparency or audit trail | **P1** |
 | 4 | Potential Collaborations | PhonePe mini-app is an untapped zero-CAC distribution goldmine | **P1** |
-| 5 | UX | Home screen tries to do everything — communicates nothing | P2 |
+| 5 | UX | Home screen tries to do everything - communicates nothing | P2 |
 
 ---
 
@@ -78,15 +77,15 @@ Each feedback follows the required structure:
 **🔴 OTT Account Sharing Crackdown Creates an Unhedged Business Risk**
 
 **(a) Observed**
-Play Store reviews show users losing paid shared access (e.g., Amazon Prime) with no refund from Subspace. The core product — up to 80% off on OTT via shared accounts — has no stated contingency for platform crackdowns. No risk disclosure exists anywhere in the app or website.
+Play Store reviews show users losing paid shared access (e.g., Amazon Prime) with no refund from Subspace. The core product up to 80% off on OTT via shared accounts has no stated contingency for platform crackdowns. No risk disclosure exists anywhere in the app or website.
 
 **(b) Problem**
 Netflix cracked down on password sharing globally in 2023–24. Disney+ Hotstar and Amazon Prime are tightening limits in India. Subspace's highest-margin feature sits on a foundation its competitors (OTT platforms) are actively dismantling. User trust erodes when paid access breaks with no recourse. A simultaneous crackdown by 2–3 platforms is an existential revenue risk.
 
 **(c) Ship Instead**
-- **Sharing Guarantee** — auto-credit user wallet within 24 hours if a shared login breaks mid-period
-- **Pivot to official group plans** — migrate inventory from grey-area shared accounts to platform-sanctioned family/group plans; market it as a reliability upgrade
-- **Trust badge on listings** — "Hosted on official group plan" vs unlabelled listings; surfaces risk transparently and builds confidence
+- **Sharing Guarantee** -> auto-credit user wallet within 24 hours if a shared login breaks mid-period
+- **Pivot to official group plans** -> migrate inventory from grey-area shared accounts to platform-sanctioned family/group plans; market it as a reliability upgrade
+- **Trust badge on listings** -> "Hosted on official group plan" vs unlabelled listings; surfaces risk transparently and builds confidence
 
 ---
 
@@ -94,15 +93,15 @@ Netflix cracked down on password sharing globally in 2023–24. Disney+ Hotstar 
 **🔴 Group Splitting Has a Cold-Start Problem Nobody Talks About**
 
 **(a) Observed**
-The Groups/splitting section prompts users to invite friends — but there's no pre-existing network, no "X contacts already on Subspace" nudge, and no frictionless 30-second invite flow. Splitwise's entire growth came from forced acquisition: you have to download it to settle a bill someone added you to. Subspace has no equivalent viral loop.
+The Groups/splitting section prompts users to invite friends but there's no pre-existing network, no "X contacts already on Subspace" nudge, and no frictionless 30-second invite flow. Splitwise's entire growth came from forced acquisition: you have to download it to settle a bill someone added you to. Subspace has no equivalent viral loop.
 
 **(b) Problem**
-The ICP for splitting is young urban Indians sharing rent, OTT costs, and trip expenses — exactly who Splitwise already owns. Subspace asks this user to abandon an app their entire friend group uses, for a secondary feature. The GTM message is also unclear: Subspace leads with "subscription savings," so new users don't know splitting exists until they're already inside.
+The ICP for splitting is young urban Indians sharing rent, OTT costs, and trip expenses exactly who Splitwise already owns. Subspace asks this user to abandon an app their entire friend group uses, for a secondary feature. The GTM message is also unclear: Subspace leads with "subscription savings," so new users don't know splitting exists until they're already inside.
 
 **(c) Ship Instead**
-- **Shareable split link** — works for non-users too; recipient downloads to settle (instant acquisition loop)
-- **Flatmate-targeted GTM** — "Split Netflix, Hotstar & rent — all in one place" is a message Splitwise literally cannot match
-- **Social proof on onboarding** — "3 of your contacts already save with Subspace" reduces cold-start anxiety from Day 1
+- **Shareable split link** -> works for non-users too; recipient downloads to settle (instant acquisition loop)
+- **Flatmate-targeted GTM** -> "Split Netflix, Hotstar & rent — all in one place" is a message Splitwise literally cannot match
+- **Social proof on onboarding** -> "3 of your contacts already save with Subspace" reduces cold-start anxiety from Day 1
 
 ---
 
@@ -113,12 +112,12 @@ The ICP for splitting is young urban Indians sharing rent, OTT costs, and trip e
 Subspace markets auto-detection as "simply log in and we'll take care of the rest." But in practice: no transparency into which accounts are being read, no permissions explanation, no confidence score, no "did we miss anything?" prompt, and no audit trail of detected vs. missed subscriptions.
 
 **(b) Problem**
-If auto-detection misses 2 of your 8 subscriptions, you think you're covered — but you're not, and you'll never know. Every undetected subscription is also a missed monetisation moment: the Negotiate API (Subspace's core moat) can only fire on subscriptions it knows about. Studies show users consistently underestimate subscription spend by 2–3x — detection completeness is the product's foundational trust layer.
+If auto-detection misses 2 of your 8 subscriptions, you think you're covered but you're not, and you'll never know. Every undetected subscription is also a missed monetisation moment: the Negotiate API (Subspace's core moat) can only fire on subscriptions it knows about. Studies show users consistently underestimate subscription spend by 2–3x detection completeness is the product's foundational trust layer.
 
 **(c) Ship Instead**
-- **Subscription Audit screen** post-onboarding — "We found 5 subscriptions. Did we miss any?" with tap-to-add for common platforms
-- **Detection source label** — "Detected via UPI · Last charged 12 May" under each subscription builds trust and makes the automation feel reliable
-- **Savings Opportunity flag** — detected full-price Netflix surfaces: "Get this 75% cheaper → Save ₹450/month" — directly monetises detection via the marketplace
+- **Subscription Audit screen** post-onboarding "We found 5 subscriptions. Did we miss any?" with tap-to-add for common platforms
+- **Detection source label** -> "Detected via UPI · Last charged 12 May" under each subscription builds trust and makes the automation feel reliable
+- **Savings Opportunity flag** -> detected full-price Netflix surfaces: "Get this 75% cheaper → Save ₹450/month"  directly monetises detection via the marketplace
 
 ---
 
@@ -126,15 +125,15 @@ If auto-detection misses 2 of your 8 subscriptions, you think you're covered —
 **🔴 Subspace is Sitting on a Distribution Goldmine It Hasn't Tapped**
 
 **(a) Observed**
-PhonePe processed 8.68 billion transactions in May 2025 — ~47% of all UPI volume in India. Every recurring OTT debit, gym fee, and subscription auto-pay flows through PhonePe or GPay first. Yet Subspace has zero presence at this moment — no mini-app, no post-payment nudge, no integration whatsoever.
+PhonePe processed 8.68 billion transactions in May 2025 ~ 47% of all UPI volume in India. Every recurring OTT debit, gym fee, and subscription auto-pay flows through PhonePe or GPay first. Yet Subspace has zero presence at this moment — no mini-app, no post-payment nudge, no integration whatsoever.
 
 **(b) Problem**
-Subspace's biggest growth constraint is convincing users to download yet another app for money they're already tracking elsewhere. Over 72% of new Indian fintech launches now involve an institutional partner (RBI Fintech Outlook 2026). Subspace is rebuilding distribution from scratch instead of riding rails that already reach 600 million Indians. The post-payment moment — right after a recurring charge — is the highest-intent acquisition moment, and it goes to nobody right now.
+Subspace's biggest growth constraint is convincing users to download yet another app for money they're already tracking elsewhere. Over 72% of new Indian fintech launches now involve an institutional partner (RBI Fintech Outlook 2026). Subspace is rebuilding distribution from scratch instead of riding rails that already reach 600 million Indians. The post-payment moment — right after a recurring charge  is the highest-intent acquisition moment, and it goes to nobody right now.
 
 **(c) Ship Instead**
-- **PhonePe Mini App** — surfaced after every recurring UPI debit with a single CTA: "You paid ₹649 for this. Get it for ₹149 → Save with Subspace." Zero CAC, maximum intent
-- **Account Aggregator tie-up** (ICICI/HDFC) — RBI's 2025 AA guidelines make bank-level subscription data accessible via API; far more complete than SMS/UPI parsing alone
-- **HR platform partnership** (Darwinbox, Razorpay Payroll) — pitch Subspace as an employee benefit; salary-day trigger for subscription savings is a natural engagement hook
+- **PhonePe Mini App** —> surfaced after every recurring UPI debit with a single CTA: "You paid ₹649 for this. Get it for ₹149 → Save with Subspace." Zero CAC, maximum intent
+- **Account Aggregator tie-up** (ICICI/HDFC) —> RBI's 2025 AA guidelines make bank-level subscription data accessible via API; far more complete than SMS/UPI parsing alone
+- **HR platform partnership** (Darwinbox, Razorpay Payroll) —> pitch Subspace as an employee benefit; salary-day trigger for subscription savings is a natural engagement hook
 
 ---
 
@@ -142,14 +141,14 @@ Subspace's biggest growth constraint is convincing users to download yet another
 **🔴 The Home Screen Tries to Do Everything — and Communicates Nothing**
 
 **(a) Observed**
-Landing on Subspace's home screen: subscription deals, gift cards, rentals, group sharing, expense tracking, marketplace listings, and promotional banners — all competing above the fold. No visual hierarchy. No single dominant CTA. Subspace's actual moats (Negotiate API, auto-detection) are buried under gift card banners that look identical to CashKaro or Meesho.
+Landing on Subspace's home screen: subscription deals, gift cards, rentals, group sharing, expense tracking, marketplace listings, and promotional banners all competing above the fold. No visual hierarchy. No single dominant CTA. Subspace's actual moats (Negotiate API, auto-detection) are buried under gift card banners that look identical to CashKaro or Meesho.
 
 **(b) Problem**
-This is a classic feature-dumping anti-pattern. Users who downloaded Subspace to "save on Netflix" land on a screen with no clear starting point — many don't start at all. The core value proposition ("we save you money on subscriptions automatically") is invisible. Users who don't find value in the first 90 seconds rarely return — and a cluttered home screen makes that critical window nearly impossible to win.
+This is a classic feature-dumping anti-pattern. Users who downloaded Subspace to "save on Netflix" land on a screen with no clear starting point many don't start at all. The core value proposition ("we save you money on subscriptions automatically") is invisible. Users who don't find value in the first 90 seconds rarely return and a cluttered home screen makes that critical window nearly impossible to win.
 
 **(c) Ship Instead**
-- **Intent-based onboarding** — one question: "What brought you here? Save on subscriptions / Split bills / Rent something." Build the home screen around that job-to-be-done; everything else in the bottom nav
-- **One dominant CTA** — "You're spending ₹2,400/month on subscriptions. Save up to ₹1,800 →". Mirrors how Zepto/Swiggy handle multi-category without overwhelming new users
+- **Intent-based onboarding** —> one question: "What brought you here? Save on subscriptions / Split bills / Rent something." Build the home screen around that job-to-be-done; everything else in the bottom nav
+- **One dominant CTA** —> "You're spending ₹2,400/month on subscriptions. Save up to ₹1,800 →". Mirrors how Zepto/Swiggy handle multi-category without overwhelming new users
 - **Sticky Savings Dashboard** — running total: "You've saved ₹3,200 this month" as the top card; creates an emotional anchor and reinforces brand promise every single session
 
 ---
@@ -215,5 +214,3 @@ This is a classic feature-dumping anti-pattern. Users who downloaded Subspace to
 Feel free to reach out with any questions about this teardown or the research methodology.
 
 ---
-
-*Product Intern Assignment · Vocallabs.ai / Subspace.money · 2026*
