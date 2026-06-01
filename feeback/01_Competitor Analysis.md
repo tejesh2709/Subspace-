@@ -47,5 +47,5 @@ If 2–3 major OTT platforms enforce stricter sharing policies simultaneously, S
 ### Supporting Evidence
 
 - Netflix password sharing crackdown: [BBC Coverage](https://www.bbc.com/news/technology)
-- Play Store reviews showing access loss (see `/screenshots/playstore_reviews.png`)
+- Play Store reviews showing access loss (see `screenshots/userreview.jpeg`)
 - Subspace marketplace page showing shared subscription listings
