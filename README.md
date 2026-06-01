@@ -35,7 +35,7 @@ subspace-product-teardown/
 ├── README.md                          ← You are here
 │
 ├── report/
-│   └── Subspace-Product Teardown.pdf ← Full formatted report (Word doc)
+│   └── Subspace-Product Teardown.pdf ← Full formatted report (Word doc/pdf)
 │
 ├── feedbacks/
 │   ├── 01_competitor_analysis.md      ← OTT crackdown risk
@@ -48,7 +48,7 @@ subspace-product-teardown/
 │   ├── competitor_analysis.md         ← CRED vs Splitwise vs Subspace
 │   └── porters_five_forces.md         ← Structural market analysis
 │
-└── screenshots/                       ← App screenshots (add your own)
+└── screenshots/                       ← App screenshots
     └── README.md                      ← Screenshot guide
 ```
 
